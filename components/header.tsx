@@ -2,6 +2,7 @@
 
 import { Phone, Clock, Mail, Menu, X } from 'lucide-react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState } from 'react';
 import * as motion from 'motion/react-client';
 
@@ -31,16 +32,15 @@ export function Header() {
       <div className="flex justify-between items-center px-6 py-4 max-w-7xl mx-auto">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 group">
-          <div className="relative flex items-center justify-center w-12 h-12 bg-zinc-800 border-2 border-orange-500 rounded-lg transform group-hover:scale-105 transition-transform">
-            <div className="absolute inset-0 bg-orange-500/20 rounded-lg"></div>
-            <div className="w-6 h-1 bg-orange-500 absolute top-3"></div>
-            <div className="w-6 h-1 bg-orange-500 absolute top-5"></div>
-            <div className="w-6 h-1 bg-orange-500 absolute top-7"></div>
-          </div>
-          <div className="flex flex-col">
-            <span className="text-xl font-black tracking-tight leading-none uppercase">Lakewood</span>
-            <span className="text-sm font-bold text-orange-500 tracking-wider uppercase">Garage Door Repair</span>
-            <span className="text-[10px] font-semibold text-zinc-400 tracking-widest uppercase">Experts</span>
+          <div className="relative w-48 h-20">
+            <Image 
+              src="/logo.png" 
+              alt="Lakewood Garage Door Repair Experts" 
+              fill
+              className="object-contain"
+              priority
+              referrerPolicy="no-referrer"
+            />
           </div>
         </Link>
 

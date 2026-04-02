@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { Facebook, Instagram, Twitter } from 'lucide-react';
 
 export function Footer() {
@@ -11,10 +12,14 @@ export function Footer() {
           {/* Brand */}
           <div className="space-y-6">
             <Link href="/" className="inline-block">
-              <div className="flex flex-col">
-                <span className="text-xl font-black tracking-tight leading-none uppercase text-white">Lakewood</span>
-                <span className="text-sm font-bold text-orange-500 tracking-wider uppercase">Garage Door Repair</span>
-                <span className="text-[10px] font-semibold text-zinc-500 tracking-widest uppercase">Experts</span>
+              <div className="relative w-48 h-20">
+                <Image 
+                  src="/logo.png" 
+                  alt="Lakewood Garage Door Repair Experts" 
+                  fill
+                  className="object-contain"
+                  referrerPolicy="no-referrer"
+                />
               </div>
             </Link>
             <p className="text-sm leading-relaxed">

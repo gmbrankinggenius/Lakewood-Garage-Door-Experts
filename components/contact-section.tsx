@@ -19,7 +19,7 @@ export function ContactSection() {
 
   return (
     <section id="contact" className="py-24 bg-zinc-950 text-white relative overflow-hidden">
-      <div className="absolute inset-0 z-0 opacity-10 bg-[url('https://picsum.photos/seed/map/1920/1080?blur=4')] bg-cover bg-center mix-blend-overlay"></div>
+      <div className="absolute inset-0 z-0 opacity-10 bg-[url(https://picsum.photos/seed/map/1920/1080?blur=4)] bg-cover bg-center mix-blend-overlay"></div>
       
       <div className="container mx-auto px-6 max-w-7xl relative z-10">
         <motion.div 

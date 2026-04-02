@@ -13,7 +13,7 @@ export default function Home() {
     "@context": "https://schema.org",
     "@type": "HomeAndConstructionBusiness",
     "name": "Lakewood Garage Door Repair Experts",
-    "image": "https://lakewoodgaragedoors.com/logo.png",
+    "image": "https://drive.google.com/uc?export=view&id=1JZsO-FqhGCVaE2HNW6CBQZjVAYGHYy1d",
     "@id": "https://lakewoodgaragedoors.com",
     "url": "https://lakewoodgaragedoors.com",
     "telephone": "+15627844156",

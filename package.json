@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && rm -rf dist && mv out dist",
+    "build": "next build && node -e \"const fs=require('fs'),path=require('path');function copySync(s,d){if(!fs.existsSync(d))fs.mkdirSync(d,{recursive:true});for(const e of fs.readdirSync(s,{withFileTypes:true})){const sp=path.join(s,e.name),dp=path.join(d,e.name);e.isDirectory()?copySync(sp,dp):fs.copyFileSync(sp,dp);}}copySync('out','dist');\"",
     "lint": "eslint .",
     "clean": "next clean"
   },

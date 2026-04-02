@@ -14,7 +14,7 @@ export function Footer() {
             <Link href="/" className="inline-block">
               <div className="relative w-48 h-20">
                 <Image 
-                  src="/logo.png" 
+                  src="https://drive.google.com/uc?export=view&id=1JZsO-FqhGCVaE2HNW6CBQZjVAYGHYy1d" 
                   alt="Lakewood Garage Door Repair Experts" 
                   fill
                   className="object-contain"

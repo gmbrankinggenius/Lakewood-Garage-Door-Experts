@@ -22,7 +22,7 @@ export function Hero() {
     <section className="relative overflow-hidden bg-zinc-950 text-white py-24 lg:py-32">
       {/* Background Pattern */}
       <div className="absolute inset-0 z-0 opacity-20">
-        <div className="absolute inset-0 bg-[url(https://picsum.photos/seed/garage/1920/1080?blur=4)] bg-cover bg-center mix-blend-overlay"></div>
+        <div className="absolute inset-0 bg-[url(/hero-bg.jpg)] bg-cover bg-center mix-blend-overlay"></div>
         <div className="absolute inset-0 bg-gradient-to-r from-zinc-950 via-zinc-900/90 to-zinc-900/50"></div>
       </div>
 

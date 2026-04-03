@@ -3,6 +3,7 @@ import { Hero } from '@/components/hero';
 import { TrustBar } from '@/components/trust-bar';
 import { Services } from '@/components/services';
 import { WhyChooseUs } from '@/components/why-choose-us';
+import { Testimonials } from '@/components/testimonials';
 import { ServiceAreaSection } from '@/components/service-area-section';
 import { FAQSection } from '@/components/faq-section';
 import { ContactSection } from '@/components/contact-section';
@@ -97,6 +98,7 @@ export default function Home() {
       <TrustBar />
       <Services />
       <WhyChooseUs />
+      <Testimonials />
       <ServiceAreaSection />
       <FAQSection />
       <ContactSection />
